@@ -17,7 +17,7 @@ Resources:
       GroupDescription: Allow http to our load balancer
       VpcId:
         Fn::ImportValue:
-          !Sub "${EnvironmentName}-VPCID"
+          !Sub "${EnvironmentName}-VPC"
       SecurityGroupIngress:
       - IpProtocol: tcp
         FromPort: 80
@@ -34,7 +34,7 @@ Resources:
       GroupDescription: Allow http to our hosts and SSH from local only
       VpcId:
         Fn::ImportValue:
-          !Sub "${EnvironmentName}-VPCID"
+          !Sub "${EnvironmentName}-VPC"
       SecurityGroupIngress:
       - IpProtocol: tcp
         FromPort: 8080
