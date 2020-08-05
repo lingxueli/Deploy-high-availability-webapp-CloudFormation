@@ -1,4 +1,4 @@
-# Project: Deploy a high-availability web application using CloudFormation
+# Deploy a high-availability web application using CloudFormation
 
 > I'll use this project to demonstrate my scripting skill of CloudFormation to deploy a high-availability web application.
 
