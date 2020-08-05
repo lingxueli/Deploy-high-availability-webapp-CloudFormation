@@ -11,9 +11,9 @@
 
 ## Installation
 To deploy this application, use these commands from the code directory:
-```
-.\create.sh webappstack-network .\network.yml .\network-parameters.json
-.\create.sh webappstack-servers .\servers.yml .\server-parameters.json
+```shell
+>.\create.sh webappstack-network .\network.yml .\network-parameters.json
+>.\create.sh webappstack-servers .\servers.yml .\server-parameters.json
 ```
 ## Intro
 As your final project, you'll be faced with a real scenario.
