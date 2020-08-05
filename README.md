@@ -11,10 +11,10 @@
 
 ## Installation
 To deploy this application, use these commands from the code directory:
-
+'''
 .\create.sh webappstack-network .\network.yml .\network-parameters.json
 .\create.sh webappstack-servers .\servers.yml .\server-parameters.json
-
+'''
 ## Intro
 As your final project, you'll be faced with a real scenario.
 Creating this project will give you the hands-on experience you need to confidently talk about infrastructure as code. So, for that reason, we have chosen a realistic scenario where you deploy an application (Apache Web Server) and you also pick up code (JavaScript and HTML) from S3 Storage and deploy it in the appropriate folder on the web server.
