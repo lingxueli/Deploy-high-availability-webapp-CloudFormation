@@ -7,7 +7,7 @@
 - [Intro](#Intro)
 - [Problem](#Problem)
 - [Requirements](#Requirements)
-- [Other Considerations](#Other Considerations)
+- [Other Considerations](#Other-Considerations)
 
 ## Installation
 To deploy this application, use these commands from the code directory:
